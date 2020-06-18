@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Titulo</title>
+
+    <!-- Union del archivo CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Link de union con la pagina de iconos -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+
+    <!--link de union con la pagina del slider  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+
+  </head>
+
+  <body>
+
+    <h1>Sitio web profesional</h1>
+
+
+    <!--Banner-->
+    <div class="banner-wrapper">
+      <header>
+        <div class="header-inner">
+          <a href="index.html">
+            <img src="img/pics/fazt_logo.png" alt="">
+          </a>
+          
+          <nav>
+            <a href="#" id="menu-icon">
+              <i class="fa fa-bars"></i>
+            </a>
+            
+            <ul>
+              <li>
+                <a href="index.html">Inicio</a>
+              </li>
+              
+              <li>
+                <a href="#Gallery">Galeria</a>
+              </li>
+              
+              <li>
+                <a href="#Contact">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+
+
+        </div>
+      </header>
+
+      <section>
+        <ul class="slider1">
+          <li>
+            <img src="img\slider\slider1.jpg" alt="slider 01">
+          </li>
+          
+          <li>
+            <img src="img\slider\slider2.jpg" alt="slider 02">
+          </li>
+          
+          <li>
+            <img src="img\slider\slider3.jpg" alt="slider 03">
+          </li>
+        </ul>
+      </section>
+
+    </div>
+
+    <!--Scripts-->
+    <script>
+      $(document).ready(function() {
+        $('.slider1').bxSlider({
+          mode: 'fade',
+        });
+        $('.slider2').bxSlider({
+          mode: 'fade',
+        });
+        $('.slider3').bxSlider({
+          mode: 'fade',
+        });
+      });
+    </script>
+  </body>
+
+</html>
