@@ -3,24 +3,29 @@
 
   <head>
 
-    <meta charset="utf-8">
-
+    <meta charset="utf-8" />
     <title>Titulo</title>
 
     <!-- Union del archivo CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <!--Link de union con la pagina de iconos -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-    crossorigin="anonymous">
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
 
     <!--link de union con la pagina del slider  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-
-
+ 
+ 
   </head>
 
   <body>
@@ -33,23 +38,23 @@
       <header>
         <div class="header-inner">
           <a href="index.html">
-            <img src="img/pics/fazt_logo.png" alt="">
+            <img src="img/pics/fazt_logo.png" alt="" />
           </a>
-          
+
           <nav>
             <a href="#" id="menu-icon">
               <i class="fa fa-bars"></i>
             </a>
-            
+
             <ul>
               <li>
                 <a href="index.html">Inicio</a>
               </li>
-              
+
               <li>
-                <a href="#Gallery">Galeria</a>
+                <a href="#skills">Habilidades</a>
               </li>
-              
+
               <li>
                 <a href="#Contact">Contacto</a>
               </li>
@@ -63,32 +68,70 @@
       <section>
         <ul class="slider1">
           <li>
-            <img src="img\slider\slider1.jpg" alt="slider 01">
+            <img src="img\slider\slider1.jpg" alt="slider 01" />
           </li>
-          
+
           <li>
-            <img src="img\slider\slider2.jpg" alt="slider 02">
+            <img src="img\slider\slider2.jpg" alt="slider 02" />
           </li>
-          
+
           <li>
-            <img src="img\slider\slider3.jpg" alt="slider 03">
+            <img src="img\slider\slider3.jpg" alt="slider 03" />
           </li>
         </ul>
       </section>
-
     </div>
+
+    <section class="one-third" id="skills">
+      <div>
+        <i class="fa fa-desktop"></i>
+      </div>
+      <h3>Hell Yeah!!</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Deserunt, officiis quis! Temporibus labore ipsam voluptas. 
+        Amet, maxime ex dolor porro tempore voluptatibus tenetur est! 
+        Recusandae alias obcaecati error neque quis?
+      </p>
+    </section>
+
+    <section class="second-third" id="skills">
+      <div>
+        <i class="fa fa-pencil-square-o"></i>
+      </div>
+      <h3>Desarrollo Web</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Deserunt, officiis quis! Temporibus labore ipsam voluptas. 
+        Amet, maxime ex dolor porro tempore voluptatibus tenetur est! 
+        Recusandae alias obcaecati error neque quis?
+      </p>
+    </section>
+
+    <section class="third-third" id="skills">
+      <div>
+        <i class="fa fa-file-code-o"></i>
+      </div>
+      <h3>Desarrollo de videojuegos</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Deserunt, officiis quis! Temporibus labore ipsam voluptas. 
+        Amet, maxime ex dolor porro tempore voluptatibus tenetur est! 
+        Recusandae alias obcaecati error neque quis?
+      </p>
+    </section>
 
     <!--Scripts-->
     <script>
-      $(document).ready(function() {
-        $('.slider1').bxSlider({
-          mode: 'fade',
+      $(document).ready(function () {
+        $(".slider1").bxSlider({
+          mode: "fade",
         });
-        $('.slider2').bxSlider({
-          mode: 'fade',
+        $(".slider2").bxSlider({
+          mode: "fade",
         });
-        $('.slider3').bxSlider({
-          mode: 'fade',
+        $(".slider3").bxSlider({
+          mode: "fade",
         });
       });
     </script>
